@@ -389,13 +389,14 @@
   <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script>
   <script>
     // var box = document.getElementById('box');
-    var arr = ['在新中国成立70周年之际', '我谨代表中共中央委员会', '祝贺盛哥文姐', '新婚快乐!!!', '早生贵子!!!', '百年好合!!!']
+    var arr = ['在新中国成立70周年之际', '我谨代表丹济村民委员会', '祝贺盛哥文姐', '新婚快乐!!!', '早生贵子!!!', '百年好合!!!']
     new Typed('#typed', {
-      strings: [arr.join('<br/>&nbsp;&nbsp;')],
+      strings: ['在新中国成立70周年之际<br/>&nbsp;&nbsp;我谨代表丹济村民委员会<br/>&nbsp;&nbsp;祝贺盛哥文姐<br/>&nbsp;&nbsp;新年快乐',
+        arr.join('<br/>&nbsp;&nbsp;')
+      ],
       typeSpeed: 200,
       backSpeed: 100,
-      loop: true,
-      loopCount: 2
+      smartBackspace: true,
     })
   </script>
 </body>
